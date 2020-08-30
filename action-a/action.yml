@@ -4,16 +4,14 @@ author: "octocat@github.com"
 
 inputs:
   MY_NAME:
-  description: "Who to greet"
-  required: true
-  default: "world"
-  
+    description: "Who to greet"
+    required: true
+    default: "World"
+
 runs:
   using: "docker"
-  image: "Dcokerfile"
+  image: "Dockerfile"
 
 branding:
   icon: "mic"
   color: "purple"
-
-  
